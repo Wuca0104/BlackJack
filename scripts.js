@@ -92,6 +92,7 @@ const turnoComputadora=(PuntosMinimos,posicionJugador)=>{
 
 }
 
+//quita el atributo "turno" al div para dejar de seleccionarlo
 const limpiarClase=()=>{
    
     
@@ -99,6 +100,7 @@ const limpiarClase=()=>{
     divCartas[i].className = "cartas";}
 }
 
+//Agrega el atributo "turno" al div cartas para agregarle el estilo CSS
 const turnoActual=()=>{
 if(turno==0)
 {
